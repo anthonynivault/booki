@@ -10,32 +10,30 @@ body{
 
 header{
     max-width: 1440px;
-    height: 79px;
     margin:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
     }
 
 header img {
     width: 61.9px;
-    height: 19px;
     object-fit: contain;
-    padding: 30px 50px 30px 50px ;
+    padding: 30px 0px;
     }
 
 header nav ul{
     display: flex;
     gap: 68px;
     list-style: none;
-    width: 344px;
     height: 35px;
-    align-items: end;
+    
     }
 
 header nav a:hover {
     color: #0065FC;
-    padding-top: 19px;
+    padding-top: 14px;
     border-top: 2px solid #0065FC;
     }
 
@@ -45,7 +43,7 @@ a{
     font-size: 16px;
     }
 
-h3{
+h2{
     font-size:  18px;
     color:black
     }
@@ -64,7 +62,7 @@ footer ul{
     
     }
 
-footer h3, footer li{
+footer h2, footer li{
         margin-bottom: 15px;
     }
 
