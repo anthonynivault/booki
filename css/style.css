@@ -8,44 +8,153 @@ body{
     font-family: 'raleway';
     }
 
-header{
-    max-width: 1340px;
-    margin:auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    }
-
-header img {
-    width: 61.9px;
-    object-fit: contain;
-    padding: 30px 0px;
-    }
-
-header nav ul{
-    display: flex;
-    gap: 68px;
-    list-style: none;
-    height: 35px;
-    
-    }
-
-header nav a:hover {
-    color: #0065FC;
-    padding-top: 14px;
-    border-top: 2px solid #0065FC;
-    }
-
 a{
     color: black;
     text-decoration: none;
     font-size: 16px;
     }
 
-h2{
-    font-size:  18px;
-    color:black
+header{
+    max-width: 1340px;
+    margin:0px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+    
+    }
+
+header img {
+    width: 61.9px;
+    object-fit: contain;
+    margin-top: 5px;
+    }
+
+header nav{
+    align-self: flex-start;
+    
+    }
+
+header nav ul{
+    display: flex;
+    gap: 68px;
+    list-style: none; 
+    }
+
+header nav a{
+    display: flex;
+    padding: 14px 0px;
+    border-top: 2px solid transparent;
+    }
+
+header nav a:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    }
+
+#trouver{
+    max-width: 1340px;
+    margin:auto;
+    }
+
+#trouver h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    }
+
+#trouver_p1{
+    font-size: 16px;
+    margin: 0px 0px 33px 0px;
+    }
+
+#trouver form{
+    display: flex;
+    margin-bottom: 35px;
+    }
+
+#icon_position{
+    font-size: 18px;
+    background-color: #F2F2F2;
+    padding: 15px 20px;
+    border-radius: 15px 0px 0px 15px;
+    }
+
+#recherche {
+    border: none;
+    border-top: 1px solid #F2F2F2 ;
+    border-bottom: 1px solid #F2F2F2 ;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    outline: none;
+    height:48px ;
+    width: 195px;
+    }
+
+#recherche::placeholder {
+    color: currentColor;
+      }
+      
+#bouton_rechercher {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0065FC;
+    padding: 14px 18px;
+    border-radius: 0px 15px 15px 0px;
+    border:none
+    }
+
+#filtre{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    margin-bottom: 35px;
+    }
+
+#filtre p{
+    font-size: 18px;
+    font-weight: bold;   
+    }
+
+.bouton_filtre{
+    display:flex;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 2px solid #D9D9D9;
+    gap: 10px
+    }
+
+.bouton_filtre i{
+    color: #0065FC;
+    }
+
+.bouton_filtre:hover{
+    background-color: #DEEBFF;
+    }
+
+#information{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+    }
+
+#icon_information{
+    font-size:  10px;
+    color: #0065FC;
+    border : 1px solid #D9D9D9;
+    padding: 7px 10px;
+    border-radius: 50%;   
+}
+
+.bouton_filtre,
+#bouton_rechercher {
+    cursor: pointer;
     }
 
 footer{
@@ -53,6 +162,11 @@ footer{
     margin:auto;
     display: flex;
     background-color:#F2F2F2 ;
+    }
+
+footer h2{
+    font-size:  18px;
+    color:black
     }
 
 footer ul{
@@ -70,3 +184,4 @@ footer div{
     margin: 20px 0px 0px 20px;
     flex:1;
     }
+
