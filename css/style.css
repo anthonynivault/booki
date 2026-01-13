@@ -5,7 +5,7 @@
     }
 
 body{
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
     }
 
 a{
@@ -21,7 +21,6 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 79px;
-    
     }
 
 header img {
@@ -32,7 +31,6 @@ header img {
 
 header nav{
     align-self: flex-start;
-    
     }
 
 header nav ul{
@@ -156,6 +154,127 @@ header nav a:hover {
 #bouton_rechercher {
     cursor: pointer;
     }
+
+.section-title {
+    font-size: 22px;
+    }
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    }
+
+.card img {
+    object-fit: cover;
+    }
+
+.card-title {
+    font-size: 16px;
+    }
+
+.euro {
+    font-weight: 700;
+    }
+
+.neutral-star {
+    color: var(--main-bg-color)
+    }
+
+.hebergements_marseille,
+.populaires {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.hebergements-and-populaires {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+     display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin:auto;
+
+}
+
+.hebergements_marseille {
+    width: 65%
+       }
+
+.hebergements_marseille-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: flex-start;
+    
+ 
+}
+
+.hebergements_marseille-cards a{
+  display: block;            
+  flex: 1 1 250px;
+  margin-top: 33px;
+}
+       
+.hebergements_marseille-cards img {
+    
+    width: 100%;
+    height: 136px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.populaires {
+    width: 32%;
+}
+
+.populaires-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populaires-cards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.populaires-cards img {
+    width: 33%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.populaires-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.populaires-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.populaires-cards .card-subtitle {
+    margin: 0;
+}
+
+.populaires-cards .card-rating {
+    margin-bottom: 5px;
+}
 
 footer{
     max-width: 1340px;
