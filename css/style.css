@@ -187,13 +187,24 @@ header nav a:hover {
     color: var(--main-bg-color)
     }
 
+.card-rating{
+    font-size: 18px;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+
+.card-subtitle {
+    margin: 0;
+    font-size: 14px;
+    }
+
 .hebergements_marseille,
 .populaires {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-}
+    }
 
 .hebergements-and-populaires {
     --main-color: #0065FC;
@@ -202,39 +213,53 @@ header nav a:hover {
      display: flex;
     justify-content: space-between;
     max-width: 1340px;
-    margin:auto;
-
-}
+    margin: auto auto 60px auto
+    }
 
 .hebergements_marseille {
     width: 65%
-       }
+    }
+
+.hebergements_marseille-title{
+    margin-bottom: 30px;
+    }
 
 .hebergements_marseille-cards{
     display: flex;
     flex-wrap: wrap;
-    gap:5px;
+    gap:30px;
     justify-content: flex-start;
-    
- 
-}
+    margin-bottom: 28px;
+    }
 
-.hebergements_marseille-cards a{
-  display: block;            
-  flex: 1 1 250px;
-  margin-top: 33px;
+.hebergements_marseille-cards a{         
+    flex: 1 1 30%;
+    
+    }
+
+.hebergements_marseille .card-content {
+    padding-left: 10px;
 }
        
 .hebergements_marseille-cards img {
     
     width: 100%;
-    height: 136px;
+    height: 119px;
     border-radius: 20px 20px 0px 0px;
-}
+    margin-bottom: 5px;
+    }
+
+.hebergements_marseille-cards .card-title{
+    margin-bottom: 5px;
+    }   
+
+.hebergements_marseille-cards .card-subtitle{
+    margin-bottom: 5px;
+    }
 
 .populaires {
     width: 32%;
-}
+    }
 
 .populaires-title {
     display: flex;
@@ -276,6 +301,56 @@ header nav a:hover {
     margin-bottom: 5px;
 }
 
+#afficher{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.activites_marseille .section-title{
+    margin-bottom: 30px;
+}
+
+
+
+.activites_marseille{ 
+    max-width: 1340px;
+    margin:auto ;
+    
+    }
+
+.activites_marseille-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:28px;
+    margin:0px 28px ;
+    justify-content: flex-start;
+}
+
+.activites_marseille-cards a{
+    flex: 1 0 22%;
+    }
+
+.activites_marseille-cards img {
+    width: 100%;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 15px;
+    
+    }
+
+.activites_marseille .card-content{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.activites_marseille-cards{
+    margin-bottom: 65px;
+}
+
+.activites_marseille .card{
+    padding: 0px;
+}
+
 footer{
     max-width: 1340px;
     margin:auto;
@@ -301,6 +376,7 @@ footer h2, footer li{
 
 footer div{ 
     margin: 20px 0px 0px 20px;
+    padding: 2px ;
     flex:1;
     }
 
