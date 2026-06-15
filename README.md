@@ -33,8 +33,6 @@ git clone <url-du-repo>
 
 3. Lancer le fichier `index.html` dans votre navigateur.
 
-## Aperçu
-
 ## Auteur
 
 Anthony Nivault
