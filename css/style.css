@@ -38,8 +38,8 @@ a{
 header{
     max-width: 1340px;
     margin:0px auto 30px auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -78,8 +78,8 @@ header nav a:hover {
 #trouver{
     max-width: 1340px;
     margin:auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
     }
 
@@ -250,8 +250,8 @@ header nav a:hover {
     justify-content: space-between;
     max-width: 1340px;
     margin: auto auto 60px auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
     }
 
@@ -351,8 +351,8 @@ header nav a:hover {
 .activites_marseille{
     max-width: 1340px;
     margin:auto ;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
     }
 
@@ -388,8 +388,8 @@ header nav a:hover {
 footer{
     max-width: 1340px;
     margin:auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
     display: flex;
     background-color: var(--main-bg-color);
@@ -557,6 +557,9 @@ footer div{
 
     .hebergements-and-populaires{
     flex-direction: column-reverse;
+    /* padding ramené à 20px : .populaires s'appuie dessus pour déborder pile jusqu'aux bords de l'écran */
+    padding-left: 20px;
+    padding-right: 20px;
     }
 
     .hebergements_marseille-cards{
