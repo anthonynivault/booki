@@ -523,15 +523,22 @@ footer div{
     }
 
     #texte_rechercher{
-    display: none;    
+    display: none;
     }
 
     #icon_loupe{
     display: inline ;
     }
 
+    #trouver{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
     #recherche{
-        width: 235px;
+        flex: 1;
+        min-width: 0;
+        width: auto;
     }
 
     #bouton_rechercher {
