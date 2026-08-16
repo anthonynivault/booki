@@ -109,6 +109,10 @@ header nav a:hover {
     display: none;
     }
 
+#icon_loupe i{
+    color: #ffffff;
+    }
+
 #recherche {
     border: none;
     border-top: 1px solid var(--main-bg-color);
